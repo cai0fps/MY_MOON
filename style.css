@@ -1,0 +1,114 @@
+/* Correção definitiva para altura em WebViews (iOS/Android) */
+html, body {
+    height: 100%;
+    margin: 0; padding: 0;
+}
+
+.custom-body-height {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    min-height: 100dvh;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+body { 
+    font-family: 'Inter', sans-serif; 
+    color: white; 
+    
+    /* Fundo Gradual Animado */
+    background: linear-gradient(-45deg, #4A00E0, #8E2DE2, #00C9FF, #92FE9D); 
+    background-size: 400% 400%; 
+    animation: gradientBG 10s ease infinite;
+}
+
+/* Fallback de Efeito Vidro para Safari e WebViews */
+* {
+    -webkit-backdrop-filter: inherit;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Scrollbar Personalizada */
+.custom-scroll::-webkit-scrollbar { width: 6px; }
+.custom-scroll::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.1); }
+.custom-scroll::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.4); border-radius: 10px; }
+
+/* Animação do Player de Música */
+@keyframes progress { 
+    0% { width: 0%; } 100% { width: 100%; } 
+}
+.animate-progress { animation: progress 210s linear infinite; }
+
+/* Efeito Vidro (Glassmorphism) Global */
+.glass-card { 
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* --- ESTILOS DO WRAPPED / STORIES --- */
+.story-container {
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* Barra de Progresso dos Stories */
+.progress-bar {
+    flex: 1;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    overflow: hidden;
+    margin: 0 2px;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%;
+    background: white;
+}
+
+/* Utilitários de Animação */
+.delay-1s {
+    animation-delay: 1s;
+}
+
+/* ==================== EFEITO DE CORAÇÕES ==================== */
+.heart-bg {
+    position: fixed;
+    bottom: -10vh;
+    color: #ff4757; 
+    font-size: 25px;
+    z-index: 0; 
+    animation: floatUp linear forwards;
+    pointer-events: none;
+    text-shadow: 0 0 10px rgba(255, 71, 87, 0.5);
+}
+
+@keyframes floatUp {
+    0% { transform: translateY(0) rotate(0deg) scale(0.5); opacity: 0; }
+    10% { opacity: 1; transform: scale(1); }
+    90% { opacity: 1; }
+    100% { transform: translateY(-120vh) rotate(360deg) scale(1.2); opacity: 0; }
+}
+
+/* Previne o menu de contexto ao segurar o ecrã no telemóvel */
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    outline: none;
+}
