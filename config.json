@@ -6,11 +6,17 @@
     "secret": "💖<br><br>Queria apenas deixar registado aqui, que és a pessoa mais incrível que já conheci. Obrigado por cada sorriso, cada abraço e por tornares a minha vida muito mais colorida.<br><br>te amo."
   },
   "songs": [
-    { "title": "Amor Meu Grande Amor", "artist": "Grande Amor", "src": "videoplayback7.mp3" },
-    { "title": "Sonha Comigo", "artist": "Nossa Música", "src": "videoplayback.weba" },
-    { "title": "Conto as horas para estar com você", "artist": "Longe De Você", "src": "videoplayback4.mp3" },
-    { "title": "Que Sorte A Nossa", "artist": "Tô querendo você", "src": "videoplayback5.mp3" },
-    { "title": "Pra Sempre Com Você", "artist": "Pra Sempre", "src": "videoplayback6.mp3" }
+    { "title": "Amor Meu Grande Amor", "artist": "Angela Ro Ro", "src": "videoplayback7.mp3" },
+    { "title": "Sonha Comigo", "artist": "Zé Neto e Cristiano", "src": "videoplayback.weba" },
+    { "title": "Conto as horas para estar com você", "artist": "Charlie Brown Jr", "src": "videoplayback4.mp3" },
+    { "title": "Que Sorte A Nossa", "artist": "Matheus & Kauan", "src": "videoplayback5.mp3" },
+    { "title": "Pra Sempre Com Você", "artist": "Jorge & Mateus", "src": "videoplayback6.mp3" },
+    { "title": "Até o Amanhecer", "artist": "Marchi", "src": "9. MARCHI- ATÉ O AMANHECER - Marchi.mp3" },
+    { "title": "A Vida É Boa Com Você", "artist": "Bryan Behr", "src": "Bryan Behr - A Vida Ã_Boa Com VocÃª.mp3" },
+    { "title": "A Primeira Vez", "artist": "Damiano David", "src": "Damiano David - A Primeira Vez.mp3" },
+    { "title": "Me Acalma", "artist": "Jorge & Mateus", "src": "Jorge & Mateus - Me Acalma.mp3" },
+    { "title": "Cheiro De Amor", "artist": "Maria Bethânia", "src": "Maria Bethânia - Cheiro De Amor.mp3" },
+    { "title": "Dia a Dia, Lado a Lado", "artist": "Tulipa Ruiz e Marcelo Jeneci", "src": "Tulipa Ruiz e Marcelo Jeneci - Dia a Dia, Lado a Lado.mp3" }
   ],
   "stories": [
     { "type": "video", "src": "tela-wrapped/75.mp4", "duration": 4000, "caption": "Sempre voce.😍" },
