@@ -11,12 +11,14 @@
     { "title": "Conto as horas para estar com você", "artist": "Charlie Brown Jr", "src": "videoplayback4.mp3" },
     { "title": "Que Sorte A Nossa", "artist": "Matheus & Kauan", "src": "videoplayback5.mp3" },
     { "title": "Pra Sempre Com Você", "artist": "Jorge & Mateus", "src": "videoplayback6.mp3" },
+    /*
     { "title": "Até o Amanhecer", "artist": "Marchi", "src": "Marchi.mp3" },
     { "title": "A Vida É Boa Com Você", "artist": "Bryan Behr", "src": "Com.mp3" },
     { "title": "A Primeira Vez", "artist": "Damiano David", "src": "time.mp3" },
     { "title": "Me Acalma", "artist": "Jorge & Mateus", "src": "Acalma.mp3" },
     { "title": "Cheiro De Amor", "artist": "Maria Bethânia", "src": "Amor.mp3" },
     { "title": "Dia a Dia, Lado a Lado", "artist": "Tulipa Ruiz e Marcelo Jeneci", "src": "Jeneci.mp3" }
+    */
   ],
   "stories": [
     { "type": "video", "src": "tela-wrapped/75.mp4", "duration": 4000, "caption": "Sempre voce.😍" },
