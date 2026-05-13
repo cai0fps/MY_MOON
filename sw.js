@@ -1,4 +1,4 @@
-const CACHE_NAME = 'NB-cache-v3'; // Subimos para v3 para forçar atualização
+const CACHE_NAME = 'NB-cache-v4'; // Subimos para v3 para forçar atualização
 
 const APP_SHELL = [
   './',
