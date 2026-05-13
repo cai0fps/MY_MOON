@@ -72,12 +72,13 @@ export function initUI(config) {
         });
     }
 
-    const btnCloseDay9 = document.getElementById('btnCloseDay9');
-    if (btnCloseDay9) {
-        btnCloseDay9.addEventListener('click', closeDay9Popup);
+    // CORREÇÃO: IDs sincronizados com index.html
+    const btnCloseDay16 = document.getElementById('btnCloseDay16');
+    if (btnCloseDay16) {
+        btnCloseDay16.addEventListener('click', closeDay16Popup);
     }
 
-    checkDay9Surprise();
+    checkDay16Surprise();
 }
 
 function loveExplosion() {
@@ -105,7 +106,8 @@ function createHeart() {
     setTimeout(() => heart.remove(), 5000);
 }
 
-function checkDay9Surprise() {
+// CORREÇÃO: Funções renomeadas para refletir o dia correto e IDs do HTML
+function checkDay16Surprise() {
     if (new Date().getDate() === 16) {
         const title = document.getElementById('overlayTitle');
         if (title) title.innerText = "Feliz nosso dia!❤️";
@@ -124,7 +126,7 @@ function checkDay9Surprise() {
     }
 }
 
-function closeDay9Popup() {
+function closeDay16Popup() {
     const popup = document.getElementById('day16Popup');
     if (popup) {
         popup.classList.replace('opacity-100', 'opacity-0');
