@@ -6,14 +6,14 @@
     "secret": "💖<br><br>Queria apenas deixar registado aqui, que és a pessoa mais incrível que já conheci. Obrigado por cada sorriso, cada abraço e por tornares a minha vida muito mais colorida.<br><br>te amo."
   },
   "songs": [
-    { "title": "1", "artist": "Marchi", "src": "1.mpeg" },
-    { "title": "2", "artist": "Bryan Behr", "src": "2.mpeg" },
-    { "title": "3", "artist": "Jorge & Mateus", "src": "3.mpeg" },
-    { "title": "4", "artist": "Maria Bethânia", "src": "4.mpeg" },
-    { "title": "5", "artist": "Maria Bethânia", "src": "5.mpeg" },
-    { "title": "6", "artist": "Maria Bethânia", "src": "6.mpeg" },
-    { "title": "8", "artist": "Maria Bethânia", "src": "8.mpeg" },
-    { "title": "7", "artist": "Tulipa Ruiz e Marcelo Jeneci", "src": "7.mpeg" }
+    { "title": "Cheiro De Amor", "artist": "Maria Bethânia", "src": "1.mpeg" },
+    { "title": "Dia a Dia, Lado a Lado", "artist": "Tulipa Ruiz e Marcelo Jeneci", "src": "2.mpeg" },
+    { "title": "Ate o amanhecer", "artist": "Marchi", "src": "3.mpeg" },
+    { "title": "Amor meu grande amor", "artist": "Maria Bethânia", "src": "4.mpeg" },
+    { "title": "Alianca", "artist": "Tribalistas", "src": "5.mpeg" },
+    { "title": "A vida e boa com voce", "artist": "Bryan Behr", "src": "6.mpeg" },
+    { "title": "Lisboa", "artist": "Ana Vitoria", "src": "8.mpeg" },
+    { "title": "The First Time", "artist": "Damiano David", "src": "7.mpeg" }
   ],
   "stories": [
     { "type": "video", "src": "tela-wrapped/75.mp4", "duration": 4000, "caption": "Sempre voce.😍" },
