@@ -16,7 +16,7 @@
     { "title": "The First Time", "artist": "Damiano David", "src": "7.mpeg" }
   ],
   "stories": [
-    { "type": "video", "src": "tela-wrapped/75.mp4", "duration": 5000, "caption": "Sempre voce.😍" },
+    { "type": "video", "src": "tela-wrapped/08.mp4", "duration": 10000, "caption": "Sempre voce.😍" },
     { "type": "image", "src": "tela-wrapped/70.jpg", "duration": 5000, "caption": "Nossos momentos ✨" },
     { "type": "image", "src": "tela-wrapped/72.jpg", "duration": 5000, "caption": "Você e eu 🤍" },
     { "type": "image", "src": "tela-wrapped/74.jpg", "duration": 5000, "caption": "Perfeitos juntos 🥰" },
